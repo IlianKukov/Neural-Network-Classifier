@@ -10,7 +10,7 @@ import tensorflow
 
 base_data_dir = r'C:\000.App_Dev\0. Projects\cats-vs-dogs-classification-master\data'
 base_dir = r'C:\000.App_Dev\0. Projects\cats-vs-dogs-classification-master'
-model_path = r'C:\000.App_Dev\0. Projects\cats-vs-dogs-classification-master/model/'
+model_path = r'C:\000.App_Dev\0. Projects\cats-vs-dogs-classification-master\model'
 
 train_dir = os.path.join(base_dir, 'train')
 validation_dir = os.path.join(base_dir, 'validation')
@@ -137,7 +137,7 @@ model.compile(loss='binary_crossentropy',
 
 print(model.summary())
 
-model.fit(
+model.fit_generator(
     train_generator,
     steps_per_epoch=100,
     epochs=30,
