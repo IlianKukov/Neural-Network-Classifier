@@ -1,6 +1,10 @@
 # Neural-Network-Classifier
 Deep Learning for Image Classification in Python
 
+Python Version 3.9
+Pip 23.1.2
+Tensor flow 2.12.0
+
 Link to Cats and Dogs Dataset:
 https://www.microsoft.com/en-us/download/confirmation.aspx?id=54765
 
